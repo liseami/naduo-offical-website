@@ -3,10 +3,10 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-    { name: 'Product', href: '#' },
-    { name: 'Features', href: '#' },
-    { name: 'Marketplace', href: '#' },
-    { name: 'Company', href: '#' },
+    { name: '产品', href: '#' },
+    { name: '功能', href: '#' },
+    { name: '问答', href: '#' },
+    { name: '公司', href: '#' },
 ]
 
 export default function Example() {

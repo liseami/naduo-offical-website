@@ -27,7 +27,7 @@ export default function MainView() {
                 <Hero></Hero>
 
                 {/* Feature section */}
-                <Feature></Feature>
+                {/* <Feature></Feature> */}
 
                 {/* Feature section */}
                 <Point></Point>

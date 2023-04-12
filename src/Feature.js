@@ -8,18 +8,18 @@ import {
 
 const primaryFeatures = [
     {
-        name: 'Push to deploy.',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit aute id magna.',
+        name: '上传、分析数字遗产.',
+        description: '现代人规模庞大的数百G的数字遗产，需要专门的存储与分析方案。',
         icon: CloudArrowUpIcon,
     },
     {
-        name: 'SSL certificates.',
-        description: 'Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.',
+        name: '数据安全至上',
+        description: '我们在数字遗产的安全储藏方面投入了大量的精力.',
         icon: LockClosedIcon,
     },
     {
-        name: 'Database backups.',
-        description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.',
+        name: '取回数字遗产',
+        description: '数字遗产被设计为随时可以取回并终止分析。从而避免一切可能出现的人道主义问题。',
         icon: ServerIcon,
     },
 ]
@@ -31,13 +31,12 @@ export default function Feature() {
                 <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-center lg:gap-y-0">
                     <div className="lg:row-start-2 lg:max-w-md">
                         <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                            Boost your productivity.
+                            通过最先进的AIGC生成式AI技术，
                             <br />
-                            Start using our app today.
+                            与已故的亲人再次会面
                         </h2>
                         <p className="mt-6 text-lg leading-8 text-gray-300">
-                            Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel
-                            nulla. Ac euismod vel sit maecenas.
+                            加入我们一起珍视逝去亲人的回忆，利用现代AIGC生成式AI技术，从庞大的数字遗产中提取亲人的人格、声音与回忆，让我们以一种全新的方式纪念亲人，重温珍贵的回忆。
                         </p>
                     </div>
                     <img

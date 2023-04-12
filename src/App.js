@@ -1,10 +1,10 @@
 
 import './App.css';
-import Hero from './HeroView';
+import MainView from './MainView';
 
 function App() {
   return (
-    <Hero></Hero>
+    <MainView />
   );
 }
 

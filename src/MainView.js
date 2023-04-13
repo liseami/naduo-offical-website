@@ -18,8 +18,6 @@ export default function MainView() {
                 <Feature></Feature>
                 {/* Feature section */}
                 <Point></Point>
-                {/* Newsletter section */}
-                <Newsletter></Newsletter>
                 {/* Testimonials section */}
                 <Testimonials></Testimonials>
             </main>

@@ -1,8 +1,8 @@
 
 const featuredTestimonial = {
-    body: 'Integer id nunc sit semper purus. Bibendum at lacus ut arcu blandit montes vitae auctor libero. Hac condimentum dignissim nibh vulputate ut nunc. Amet nibh orci mi venenatis blandit vel et proin. Non hendrerit in vel ac diam.',
+    body: '今天。最廉价的骨灰存放，年费约300元，常年不交，会集中清理。而那朵作为数字化的遗产储藏中心，解决了用户的祭奠焦虑。也能借助边际成本极低的视觉+声音克隆体验，得到先进的体验。更加珍惜每一个现在。',
     author: {
-        name: 'Brenna Goyette',
+        name: '朴华资本',
         handle: 'brennagoyette',
         imageUrl:
             'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=1024&h=1024&q=80',
@@ -18,55 +18,95 @@ const testimonials = [
     [
         [
             {
-                body: 'Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.',
+                body: '这款App真的太有意义了，让我们可以在互联网上永久缅怀逝去的亲人。现在我可以随时回顾爷爷的珍贵回忆，感觉好像他还在我身边。',
                 author: {
-                    name: 'Leslie Alexander',
-                    handle: 'lesliealexander',
-                    imageUrl:
-                        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+                    name: '刘婷婷',
+                    handle: 'liutingting',
+                    imageUrl: 'https://images.unsplash.com/photo-1526413232644-8a40f03cc03b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
                 },
             },
-            // More testimonials...
+            {
+                body: '非常感谢这款App，让我在国外也能随时怀念离世的妈妈，这对我来说意义非凡。设计得非常简洁易用，希望它能帮助更多人。',
+                author: {
+                    name: '陈伟',
+                    handle: 'chenwei',
+                    imageUrl: 'https://images.unsplash.com/photo-1440133197387-5a6020d5ace2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
+                },
+            },
         ],
         [
             {
-                body: 'Aut reprehenderit voluptatem eum asperiores beatae id. Iure molestiae ipsam ut officia rem nulla blanditiis.',
+                body: '在这个App上上传了逝去的朋友的照片和故事，让我在忙碌的生活中也能随时怀念他。真的是一个很贴心的产品，值得推荐。',
                 author: {
-                    name: 'Lindsay Walton',
-                    handle: 'lindsaywalton',
-                    imageUrl:
-                        'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+                    name: '王磊',
+                    handle: 'wanglei',
+                    imageUrl: 'https://plus.unsplash.com/premium_photo-1664474766856-011afa4b460c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80'
                 },
             },
-            // More testimonials...
+            {
+                body: '作为一个失去亲人的人，这款App带给了我很大的安慰。我可以和其他用户分享关于我爸爸的故事，也可以看到别人对他的回忆。谢谢你们！',
+                author: {
+                    name: '张萍',
+                    handle: 'zhangping',
+                    imageUrl: 'https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=778&q=80'
+                },
+            },
         ],
     ],
     [
         [
             {
-                body: 'Voluptas quos itaque ipsam in voluptatem est. Iste eos blanditiis repudiandae. Earum deserunt enim molestiae ipsum perferendis recusandae saepe corrupti.',
-                author: {
-                    name: 'Tom Cook',
-                    handle: 'tomcook',
-                    imageUrl:
-                        'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-                },
+                "body": "这款应用非常感人，让我可以在线上缅怀我的亲人和朋友。我很感激这个平台，让我有机会为我的逝者亲友留下数字遗产，同时也可以访问其他人的主页，了解更多人的生活。非常棒的应用，推荐给大家。",
+                "author": {
+                    "name": "李华",
+                    "handle": "lihua",
+                    "imageUrl": "https://images.unsplash.com/photo-1681276311947-ebee32b4d4cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                }
             },
-            // More testimonials...
+            {
+                "body": "我喜欢这个应用的简单易用性和富有创意的想法。通过上传数字遗产，我可以为我的亲人和朋友留下一段记忆，让他们在我的主页上永远存在。这个应用让我感到非常温暖，推荐给大家。",
+                "author": {
+                    "name": "王明",
+                    "handle": "wangming",
+                    "imageUrl": "https://images.unsplash.com/photo-1681306635626-3fbbf16b1016?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80"
+                }
+            },
+            {
+                "body": "这个应用非常有意义，它让我可以为我的逝者亲友留下数字遗产，同时也可以在这里缅怀他们。这个应用让我感到很温暖和舒适，推荐给需要安慰的人们。",
+                "author": {
+                    "name": "张强",
+                    "handle": "zhangqiang",
+                    "imageUrl": "https://images.unsplash.com/photo-1674574124349-0928f4b2bce3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80"
+                }
+            }
         ],
         [
             {
-                body: 'Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit incidunt excepturi rerum voluptatem minus harum.',
-                author: {
-                    name: 'Leonard Krasner',
-                    handle: 'leonardkrasner',
-                    imageUrl:
-                        'https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-                },
+                "body": "这个应用让我可以在线上缅怀我的亲人和朋友，留下他们的数字遗产，让他们永远存在于我的主页上。这个应用非常容易上手，而且还有一些很好的功能，比如可以查看其他人的数字遗产。非常感激这个应用，推荐给大家。",
+                "author": {
+                    "name": "刘芳",
+                    "handle": "liufang",
+                    "imageUrl": "https://plus.unsplash.com/premium_photo-1675237625772-73e3eddf0abd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                }
             },
-            // More testimonials...
-        ],
-    ],
+            {
+                "body": "这个应用非常有意义，它让我可以留下数字遗产，让我的亲人和朋友在我的主页上永远存在。这个应用非常容易使用，同时也让我感到很温暖和舒适。非常棒的应用，推荐给大家。",
+                "author": {
+                    "name": "赵强",
+                    "handle": "zhaoqiang",
+                    "imageUrl": "https://images.unsplash.com/photo-1680492775002-641a20e202ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                }
+            },
+            {
+                "body": "这个应用非常有创意，它让我可以为我的逝者亲友留下数字遗产，同时也可以在这里缅怀他们。这个应用让我感到很感动和温暖，我觉得这个应用非常适合那些需要寻求安慰和慰藉的人们。非常感谢这个应用，推荐给大家。",
+                "author": {
+                    "name": "陈明",
+                    "handle": "chenming",
+                    "imageUrl": "https://images.unsplash.com/photo-1680364905673-1e6cda85d002?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80"
+                }
+            }
+        ]
+    ]
 ]
 
 export default function Testimonials() {
@@ -123,9 +163,9 @@ export default function Testimonials() {
                 </div>
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="mx-auto max-w-xl sm:text-center">
-                        <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">Testimonials</h2>
+                        <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">内测用户评价</h2>
                         <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                            We have worked with thousands of amazing people
+                            持续倾听用户的声音，改进这个敏感的产品
                         </p>
                     </div>
                     <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">

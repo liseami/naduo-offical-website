@@ -2,10 +2,10 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { useState } from 'react'
 const navigation = [
-    { name: '产品', href: '#' },
-    { name: '功能', href: '#' },
-    { name: '问答', href: '#' },
-    { name: '公司', href: '#' },
+    { name: '文档', href: '#' },
+    // { name: '习题', href: '#' },
+    // { name: '问答', href: '#' },
+    { name: '联系', href: '#' },
 ]
 
 
@@ -22,8 +22,8 @@ export default function Header() {
                     <a href="#" className="-m-1.5 p-1.5">
                         <span className="sr-only">Your Company</span>
                         <img
-                            className="h-8 w-auto"
-                            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                            className="h-8 w-auto rounded-lg"
+                            src="http://files-static.naduo.love/public/offical-website/logo"
                             alt=""
                         />
                     </a>

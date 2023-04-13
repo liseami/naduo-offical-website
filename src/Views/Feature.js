@@ -33,7 +33,7 @@ export default function Feature() {
         <div className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl sm:text-center">
-                    <h2 className="text-base font-semibold leading-7 text-indigo-600">人类数字遗产储藏与缅怀</h2>
+                    <h2 className="text-base font-semibold leading-7 text-blue-400">人类数字遗产储藏与缅怀</h2>
                     <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">数百GB的数字遗产？没问题</p>
                     <p className="mt-6 text-lg leading-8 text-gray-600">
                         那朵可以处理大规模的数字遗产，并借助AIGC技术，从中提取逝者的“人格”，随着技术的不断发展，我们希望能够与过去建立诸多奇妙的联系。
@@ -59,7 +59,7 @@ export default function Feature() {
                     {features.map((feature) => (
                         <div key={feature.name} className="relative pl-9">
                             <dt className="inline font-semibold text-gray-900">
-                                <feature.icon className="absolute left-1 top-1 h-5 w-5 text-indigo-600" aria-hidden="true" />
+                                <feature.icon className="absolute left-1 top-1 h-5 w-5 text-blue-400" aria-hidden="true" />
                                 {feature.name}
                             </dt>{' '}
                             <dd className="inline">{feature.description}</dd>

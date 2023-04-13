@@ -163,7 +163,7 @@ export default function Testimonials() {
                 </div>
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="mx-auto max-w-xl sm:text-center">
-                        <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">内测用户评价</h2>
+                        <h2 className="text-lg font-semibold leading-8 tracking-tight text-blue-400">内测用户评价</h2>
                         <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                             持续倾听用户的声音，改进这个敏感的产品
                         </p>

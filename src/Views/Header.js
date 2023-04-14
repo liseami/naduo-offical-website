@@ -3,10 +3,9 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-    { name: '主页', href: '#' },
     { name: '功能', href: '#' },
     { name: '用户评价', href: '#' },
-    { name: '联系我们', href: '#' },
+    { name: '联系我们', href: '#' }
 ]
 
 export default function Header() {
@@ -38,12 +37,11 @@ export default function Header() {
                         <Bars3Icon className="h-6 w-6" aria-hidden="true" />
                     </button>
                 </div>
-                <button
-                    type="button"
-                    className="rounded bg-slate-700 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
-                >
-                    网页登录
-                </button>
+                <div className="hidden lg:flex">
+                    <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+                        网页版登录 <span aria-hidden="true">&rarr;</span>
+                    </a>
+                </div>
             </nav>
             <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
                 <div className="fixed inset-0 z-10" />

@@ -6,6 +6,7 @@ import Point from './Views/Point'
 import Testimonials from './Views/Testimonials'
 import Hero from './Views/Hero'
 
+
 export default function MainView() {
     return (
         <div className="bg-white">
@@ -20,6 +21,7 @@ export default function MainView() {
                 <Point></Point>
                 {/* Testimonials section */}
                 <Testimonials></Testimonials>
+
             </main>
             {/* Footer */}
             <Fotter></Fotter>

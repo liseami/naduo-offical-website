@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "DelaGothic-Bold";
+    src: url("../public/DelaGothic-Bold.ttf");
+  }
